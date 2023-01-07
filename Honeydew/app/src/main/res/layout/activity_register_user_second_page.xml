@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUserSecondPage"
+    android:background="@color/Bright_Green">
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="189dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/honeydew_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+            <Switch
+                android:id="@+id/health"
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#f00"
+                android:text="Health"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/animal"
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#f00"
+                android:text="Animals"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/smallSized"
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#f00"
+                android:text="Small Charities"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Switch
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#f00"
+                android:text="Dummy Button"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Switch
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#f00"
+                android:text="Dummy Button"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Switch
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#f00"
+                android:text="Dummy Button"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Switch
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#f00"
+                android:text="Dummy Button"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/registerUserSecondStep"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Figma_Peach"
+        android:text="Finalize Register User"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/Home"
+        android:iconTint="@color/Figma_Peach"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="Charity News"
+        android:id="@+id/News"
+        android:iconTint="@color/Figma_Peach"
+        android:icon="@drawable/ic_baseline_article_24"/>
+    <item android:title="Charity Search "
+        android:id="@+id/Search"
+        android:iconTint="@color/Figma_Peach"
+        android:icon="@drawable/ic_baseline_location_searching_24"/>
+    <item android:title="Profile"
+        android:id="@+id/Profile"
+        android:iconTint="@color/Figma_Peach"
+        android:icon="@drawable/ic_baseline_person_24"/>
+</menu>
