@@ -1,6 +1,6 @@
 # App name - Honeydew
 
-(This is a personal copy of my class project from my college's github organization. The original repository can be found here(https://github.com/paceuniversity/cs389s2022team9) )
+This is a personal copy of my class project from my college's github organization. The original repository can be found here: https://github.com/paceuniversity/cs389s2022team9
 
 ## Team
 
